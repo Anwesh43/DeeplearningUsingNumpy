@@ -20,3 +20,6 @@ time.sleep(1)
 print softmax(np.array([2,3,1,0,5,3]))
 time.sleep(1)
 print softmax(np.random.randn(3,2))
+print "error rate"
+time.sleep(1)
+print error_rate(np.array([2,0,1,0,2]),np.array([[0,0,1],[1,0,0],[0,1,0],[1,0,0],[0,0,0]]))
